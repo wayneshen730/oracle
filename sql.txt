@@ -1,0 +1,2 @@
+1 listagg
+ select listagg(username,''',''') within group ( order by 1) username from dba_users
